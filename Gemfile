@@ -14,11 +14,11 @@ group :development do
   gem "rake", "~> 13.2"
   gem "rdoc", require: false, github: "Shopify/rdoc", branch: "create_snapper_generator"
   gem "rubocop-md", "~> 1.2.0", require: false
-  gem "rubocop-minitest", "~> 0.35.0", require: false
+  gem "rubocop-minitest", "~> 0.35.1", require: false
   gem "rubocop-rake", "~> 0.6.0", require: false
   gem "rubocop-shopify", "~> 2.15", require: false
-  gem "rubocop-sorbet", "~> 0.8", require: false
-  gem "rubocop", "~> 1.64"
+  gem "rubocop-sorbet", "~> 0.8", ">= 0.8.4", require: false
+  gem "rubocop", "~> 1.65", ">= 1.65.0"
   gem "simplecov", require: false
   gem "syntax_tree", ">= 6.1.1", "< 7"
 
