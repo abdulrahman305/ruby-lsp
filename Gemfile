@@ -14,9 +14,9 @@ group :development do
   gem "psych", "~> 5.1", require: false
   gem "rake", "~> 13.2"
   gem "rdoc", require: false, github: "Shopify/rdoc", branch: "create_snapper_generator"
-  gem "rubocop-md", "~> 1.2.0", require: false
-  gem "rubocop-minitest", "~> 0.35.0", require: false
-  gem "rubocop-rake", "~> 0.6.0", require: false
+  gem "rubocop-md", "~> 2.0.0", require: false
+  gem "rubocop-minitest", "~> 0.37.1", require: false
+  gem "rubocop-rake", "~> 0.7.0", require: false
   gem "rubocop-shopify", "~> 2.15", require: false
   gem "rubocop-sorbet", "~> 0.8", require: false
   gem "rubocop", "~> 1.65"
