@@ -18,7 +18,7 @@ group :development do
   gem "rubocop-minitest", "~> 0.35.0", require: false
   gem "rubocop-rake", "~> 0.6.0", require: false
   gem "rubocop-shopify", "~> 2.15", require: false
-  gem "rubocop-sorbet", "~> 0.8", require: false
+  gem "rubocop-sorbet", "~> 0.10", ">= 0.10.2", require: false
   gem "rubocop", "~> 1.65"
   gem "simplecov", require: false
   gem "syntax_tree", ">= 6.1.1", "< 7"
