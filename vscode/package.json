@@ -813,7 +813,7 @@
     "@vscode/test-electron": "^2.5.2",
     "@vscode/vsce": "^3.4.2",
     "esbuild": "^0.25.5",
-    "eslint": "^8.57.0",
+    "eslint": "^9.0.0",
     "eslint-import-resolver-typescript": "^4.4.2",
     "eslint-plugin-prettier": "^5.4.1",
     "glob": "^11.0.2",
